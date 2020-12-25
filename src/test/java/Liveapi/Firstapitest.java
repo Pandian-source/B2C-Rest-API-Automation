@@ -12,5 +12,4 @@ return flight_req;
 public void setFlightReq(FlightReq flightReq) {
 this.flight_req = flightReq;
 }
-
 }
