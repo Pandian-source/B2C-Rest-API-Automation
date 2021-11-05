@@ -33,7 +33,7 @@ public void firstapitest() throws JsonProcessingException, ParseException
 		
 		Passengers passengers = new Passengers();
 		flightReq.setPassengers(passengers);
-		passengers.setAdult(2);
+		passengers.setAdult(1);
 		passengers.setChild(0);
 		passengers.setInfant(0);
 		passengers.setLapInfant(0);
@@ -51,21 +51,21 @@ public void firstapitest() throws JsonProcessingException, ParseException
 		extraOptions.setAllowUpsaleFare(false);
 		
 		Sector sectors = new Sector ();
-		sectors.setDepartureDate("2021-02-18");
+		sectors.setDepartureDate("2021-03-18");
 		sectors.setDestinationNearByAirport("N");
 	    sectors.setDestination("YYC");
 		sectors.setOrigin("YVR");
 	    sectors.setOriginNearByAirport("N");
 	    
 	    Sector sectorsreturn = new Sector();
-	    sectorsreturn.setDepartureDate("2021-02-21");
+	    sectorsreturn.setDepartureDate("2021-03-21");
 	    sectorsreturn.setDestinationNearByAirport("N");
 	    sectorsreturn.setDestination("YYZ");
 	    sectorsreturn.setOrigin("YYC");
 	    sectorsreturn.setOriginNearByAirport("N");
 	    
 	    List<Sector>allsectors = new ArrayList<Sector>();
-	    allsectors.add(sectorsreturn);
+	    allsectors.add(sectors);
 	    allsectors.add(sectorsreturn);
 	    flightReq.setSectors(allsectors);	   
 	    

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38846" started-at="2020-12-19T13:32:20 IST" finished-at="2020-12-19T13:32:59 IST">
+  <suite name="Default suite" duration-ms="12001" started-at="2021-01-09T13:08:55 IST" finished-at="2021-01-09T13:09:07 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38846" started-at="2020-12-19T13:32:20 IST" finished-at="2020-12-19T13:32:59 IST">
-      <class name="Liveapi.Service">
-        <test-method status="PASS" signature="firstapitest()[pri:0, instance:Liveapi.Service@d44fc21]" name="firstapitest" duration-ms="38805" started-at="2020-12-19T13:32:20 IST" finished-at="2020-12-19T13:32:59 IST">
+    <test name="Default test" duration-ms="12001" started-at="2021-01-09T13:08:55 IST" finished-at="2021-01-09T13:09:07 IST">
+      <class name="B2CHotel.traveller">
+        <test-method status="PASS" signature="hoteltraveller()[pri:0, instance:B2CHotel.traveller@1f554b06]" name="hoteltraveller" duration-ms="11968" started-at="2021-01-09T13:08:55 IST" finished-at="2021-01-09T13:09:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstapitest -->
-      </class> <!-- Liveapi.Service -->
+        </test-method> <!-- hoteltraveller -->
+      </class> <!-- B2CHotel.traveller -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
